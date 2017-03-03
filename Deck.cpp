@@ -20,7 +20,7 @@ Deck::Deck(int cardSize, int cardCount, int numberMax) : Card()
             cardList[x] = new Card(m_size, numberMax);
             //due to my low resolution clock, this line has been added in to ensure that random number
             //sets will(mostly) be different card too card. Remove for full speed.
-            Sleep(900);
+            //Sleep(900);
         }
     }
 }

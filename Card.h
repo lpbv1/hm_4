@@ -9,7 +9,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <vector>
-#include <windows.h>
+//#include <windows.h>
 //#include "Deck.h"
 
 //class Deck;

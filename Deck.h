@@ -10,7 +10,7 @@
 #include <cmath>
 #include <iomanip>
 #include <vector>
-#include <windows.h>
+//#include <windows.h>
 #include "Card.h"
 
 // TODO: Extend this definition as you see fit
