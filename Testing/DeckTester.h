@@ -8,7 +8,8 @@
 
 class DeckTester {
 public:
-
+    void testInvalids();
+    void testDupes();
 };
 
 

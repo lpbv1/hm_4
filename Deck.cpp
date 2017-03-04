@@ -36,6 +36,11 @@ Deck::~Deck() {
 
 }
 
+std::vector<Card*> Deck::getCardList(){
+    return cardList;
+}
+
+
 //void Deck::print(std::ostream& out) const
 //{
 

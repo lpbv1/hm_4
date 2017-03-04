@@ -22,15 +22,11 @@ private:
     int m_numCards;
     std::vector<Card*> cardList;
 
-protected:
-//    int m_size;
-//    int m_minNum;
-//    int m_maxNum;
-
 public:
     Deck(int cardSize, int cardCount, int numberMax);
     Deck();
     ~Deck();
+    std::vector<Card*> getCardList();
 
     //void print(std::ostream& out) const;
     void print(std::ostream& out, int cardIndex = -1) const;

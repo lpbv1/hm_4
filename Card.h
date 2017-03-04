@@ -27,15 +27,10 @@ protected:
 public:
     Card();
     Card(int size, int max);
-    ~Card();
-    int getSize();
-    int getMin();
-    int getMax();
     int getList(int index) const;
-
-
-protected:
     bool checkUsed(std::vector<int> check, int num, int index);
+    bool isValid();
+
 };
 
 

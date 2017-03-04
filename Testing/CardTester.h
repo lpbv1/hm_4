@@ -6,8 +6,10 @@
 #define BINGO_CARDTESTER_H
 
 
-class CardTester {
 
+class CardTester {
+public:
+    void testInvalids();
 };
 
 
